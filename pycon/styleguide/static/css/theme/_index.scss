@@ -1,0 +1,67 @@
+.FutureBg{
+  background-image: url(../image/frontpage_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  //background-size: 50% ;
+}
+
+.CenterRegion{
+  text-align: center;
+}
+
+.LogoRegion{
+  margin-top:92px;
+  text-align: center;
+}
+@media (max-width: $screen-sm-max) {
+  .LogoRegion{
+    margin-top: 10px;
+  }
+}
+
+.CarRegion{
+  text-align: center;
+}
+
+.TicketContainer{
+  @extend .container-fluid;
+}
+.TicketRow{
+  @include make-row();
+}
+
+
+.TicketRegion{
+  text-align: center;
+  @include make-xs-column(12);
+}
+.TicketGroup{
+  @extend .btn-group;
+  @include clearfix;
+  @media (max-width: $screen-xs-max) {
+    display: block;
+    margin-top:10px;
+  }
+}
+
+.HeaderRegion {
+  text-align: center;
+}
+
+.NavRegion{
+  box-sizing: border-box;
+  line-height: 160px;
+  background-color: white;
+}
+
+.SponsorContainer{
+  @extend .container;
+}
+.SponsorRow{
+  @include make-row();
+}
+.SponsorRegion{
+  @include make-md-column(10);
+  @include make-md-column-offset(1)
+}
+
