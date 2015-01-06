@@ -1,3 +1,12 @@
+$first-color:          #ed195b;
+$second-color:        #FADB21;
+$third-color:         #EB802A;
+
+$first-caption-color: $first-color;
+$second-caption-color: $third-color;
+$third-caption-color:  balck;
+
+
 // Override Bootstrap variables here (defaults from bootstrap-sass v3.3.1.0):
 
 //
@@ -20,8 +29,8 @@
 // $brand-success:         #5cb85c
 // $brand-info:            #5bc0de
 // $brand-warning:         #f0ad4e
-// $brand-danger:          #d9534f
-$brand-danger:          #ed195b;
+// $brand-danger:          #d9534f;
+// $brand-danger:          #ed195b;
 
 
 //== Scaffolding
@@ -110,7 +119,7 @@ $brand-danger:          #ed195b;
 // $line-height-small:         1.5
 
 // $border-radius-base:        4px
- $border-radius-base:        4px;
+ $border-radius-base:        0px;
 // $border-radius-large:       6px
 // $border-radius-small:       3px
 
