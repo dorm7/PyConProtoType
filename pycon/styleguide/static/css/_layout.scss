@@ -1,0 +1,9 @@
+.HalfRow{
+  @include make-row;
+}
+.HalfRow--left{
+  @include make-md-column(6,0);
+}
+.HalfRow--right{
+  @include make-md-column(6,0);
+}
